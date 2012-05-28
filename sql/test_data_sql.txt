@@ -1,0 +1,24 @@
+set COMMODITY_DICTIONARY['苹果']['0:CATEGORY:TYPE']=utf8('数码');
+set COMMODITY_DICTIONARY['苹果']['0:CATEGORY:SUB_TYPE1']=utf8('手机');
+set COMMODITY_DICTIONARY['苹果']['0:CATEGORY:SUB_TYPE2']=utf8('平板电脑');
+set COMMODITY_DICTIONARY['苹果']['0:PROPERTY:位置']=utf8('美国');
+set COMMODITY_DICTIONARY['苹果']['0:CATEGORY:创立时间']=utf8('1978');
+
+set COMMODITY_DICTIONARY['苹果']['1:CATEGORY:TYPE']=utf8('水果');
+set COMMODITY_DICTIONARY['苹果']['1:CATEGORY:SUB_TYPE']=utf8('蔷薇科');
+set COMMODITY_DICTIONARY['苹果']['1:PROPERTY:属类']=utf8('苹果属');
+
+set COMMODITY_DIC_SYN['苹果公司']['SYN']=utf8('苹果');
+set COMMODITY_DIC_SYN['苹果公司']['IDX']=utf8('0');
+
+set URL_PATTERN['weiphone.com']['12:.*weiphone.com.*']=utf8('数码,苹果');
+set BASE_DIC['乔布斯']['0:RELATE_WORD']=utf8('苹果,加州,乔布斯传');
+set BASE_DIC['豪车']['0:RELATE_WORD']=utf8('宝马,奔驰');
+
+
+
+del COMMODITY_DIC_SYN['苹果公司']
+del COMMODITY_DICTIONARY['苹果'];
+del URL_PATTERN['weiphone.com'];
+del BASE_DIC['乔布斯'];
+del BASE_DIC['豪车'];
